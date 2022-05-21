@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Callout" representedClassName="Callout" syncable="YES">
+        <attribute name="action" optional="YES" attributeType="String"/>
+        <attribute name="display" optional="YES" attributeType="String"/>
+        <relationship name="image" maxCount="1" deletionRule="Nullify" destinationEntity="CalloutImage" inverseName="callout" inverseEntity="CalloutImage"/>
+        <relationship name="page" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CalloutPage" inverseName="callouts" inverseEntity="CalloutPage"/>
+    </entity>
+    <entity name="CalloutImage" representedClassName="CalloutImage" syncable="YES">
+        <attribute name="colorData" optional="YES" attributeType="Binary"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary"/>
+        <attribute name="imageType" attributeType="String"/>
+        <attribute name="url" optional="YES" attributeType="URI"/>
+        <relationship name="callout" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Callout" inverseName="image" inverseEntity="Callout"/>
+    </entity>
+    <entity name="CalloutPage" representedClassName="CalloutPage" syncable="YES">
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="callouts" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="Callout" inverseName="page" inverseEntity="Callout"/>
+    </entity>
+    <elements>
+        <element name="Callout" positionX="0" positionY="63" width="128" height="89"/>
+        <element name="CalloutImage" positionX="27" positionY="81" width="128" height="104"/>
+        <element name="CalloutPage" positionX="-27" positionY="45" width="128" height="59"/>
+    </elements>
+</model>

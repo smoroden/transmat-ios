@@ -1,0 +1,58 @@
+/* 
+  Localizable.strings
+  Transmat
+
+  Created by Zach Smoroden on 2022-05-10.
+  
+*/
+// MARK: - Alerts
+"alert-disconnect-title" = "Disconnect?";
+"button-cancel" = "Cancel";
+"button-ok" = "OK";
+
+// MARK: - Home
+"home-empty-title" = "Please select a callout page";
+"app-name" = "Transmat";
+
+// MARK: - Settings
+"settings-label-section-header" = "Label Settings";
+"settings-label-scale" = "Text Size";
+"settings-display-labels" = "Display Labels";
+"settings-title" = "Settings";
+
+// MARK: - Info
+"info-title" = "Information";
+"info-headline" = "How to get it working";
+"info-first-step" = "In order for this app to work you need some special equipment. Please see gmcbay's page on [Github](https://gmcbay.github.io/) for detailed instructions.";
+"info-second-step" = "Once you have the bluetooth device working hit the Bluetooth button on the home screen to connect.";
+"info-disconnected" = "Disconnected";
+"info-connected" = "Connected";
+"tips-title" = "I like the app how can I support you?";
+"tips-disclaimer" = "These do not offer functionality within the app but exist as a way to say thanks.";
+
+// MARK: - Create callout page
+"create-page-navigation-title" = "Create a Callout Page";
+"create-page-title" = "Enter a name for the callout page...";
+"create-description-section-title" = "Callout Description";
+"create-callout-description" = "Enter a helpful label...";
+"create-description-exists" = "The description already exists in the page. It must be unique.";
+"create-callout-action" = "Enter what will be sent...";
+
+"create-image-section-title" = "Callout Image";
+"image-type-local" = "Local Image";
+"image-type-network" = "Network Image";
+"image-type-color" = "Color";
+"create-image-type" = "Image Type";
+"create-image-picker" = "Pick an image from your library";
+
+"create-color-picker" = "Pick a color";
+"create-url-value" = "Enter the url of an image...";
+"create-invalid-url" = "Please enter a valid url";
+
+"create-add-callout-button" = "Add Callout to Page";
+"create-save-callout-page-button" = "Save";
+"create-save-instructions" = "A callout page needs at least one callout added before you can save.";
+"create-add-instructions" = "All fields must be filled in before you can add a callout.";
+
+// MARK: - Built in
+"vow-title" = "Vow of the Disciple";
