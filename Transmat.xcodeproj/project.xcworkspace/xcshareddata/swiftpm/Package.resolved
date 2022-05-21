@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "bluejay",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/steamclock/bluejay",
+      "state" : {
+        "revision" : "cf394b91af0e6029be8c85f3812440797b3812d6",
+        "version" : "0.8.9"
+      }
+    }
+  ],
+  "version" : 2
+}
